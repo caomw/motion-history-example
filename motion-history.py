@@ -3,6 +3,7 @@
 Example to extract motion history images using opencv2. stripped from opencv2 python examples motempl.py
 link to the gif: https://giphy.com/gifs/bJDYIRToRpkEU
 command to extract the jpgs: convert example.gif -coalesce images/example-%03d.jpg
+You have to use fixed length pattern for image sequence, such as ./images/example-%03d.jpg
 """
 
 import sys
